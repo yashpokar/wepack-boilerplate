@@ -1,16 +1,19 @@
 {
-  "name": "frontend",
-  "version": "1.0.0",
+  "name": "frontend-webpack-boilerplate",
+  "version": "1.0.1",
   "description": "",
   "main": "webpack.config.js",
-  "private": true,
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "hot module replacement",
+    "frontend"
+  ],
+  "author": "Yash Pokar",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.28.11",
